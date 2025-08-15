@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Layout from "./components/Layout/layout";
+import Layout from "./components/Layout/Layout";
 import Signup from "./page/Signup/Signup";
 import Login from "./page/Login/Login";
 import Home from "./page/home/Home";
