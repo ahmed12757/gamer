@@ -18,7 +18,7 @@ export default function Card({ title, desc, tags, id, img }) {
 
   return (
     <div
-      className="group w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-700/50 hover:border-gray-600/50 cursor-pointer"
+      className="group w-full  mx-auto bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-700/50 hover:border-gray-600/50 cursor-pointer"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
       onClick={handleCardClick}
