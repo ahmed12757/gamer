@@ -21,4 +21,41 @@
   --color-primary-950: #101113;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* Horizontal chips scrollbar beautify for Genres/Platforms */
+.chips-scroll {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4b5563 transparent; /* Firefox */
+}
+
+.chips-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.chips-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.chips-scroll::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* gray-600 */
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.chips-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: #6b7280; /* gray-500 */
+}
+
+/* Hide scrollbar for tabs */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -5,9 +5,11 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <>
-      <div className=" bg-primary-400 h-screen ">
+      <div className=" bg-primary-400 min-h-screen ">
         <Navbar />
-        <Outlet></Outlet>
+        <div className="container mx-auto mt-10">
+          <Outlet></Outlet>
+        </div>
       </div>
     </>
   );

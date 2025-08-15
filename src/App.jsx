@@ -1,10 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/layout";
-import SpecialOffers from "./page/Special Offers/SpecialOffers";
-import Sports from "./page/Sports/Sports";
-import Games from "./page/Games/Games";
-import Inventory from "./page/inventry/Inventory";
-import Search from "./page/search/Search";
+
 import Signup from "./page/Signup/Signup";
 import Login from "./page/Login/Login";
 import { Toaster } from "react-hot-toast";
@@ -12,6 +8,9 @@ import Home from "./page/home/Home";
 import ResetPassword from "./page/ResetPassword/ResetPassword";
 import ForgotPassword from "./page/ForgotPassword/ForgotPassword";
 import VerifyCode from "./page/VerifyCode/VerifyCode";
+import Loader from "./components/Loading/Loading";
+import Card from "./components/Card/Card";
+import GameDetails from "./page/GameDetails/GameDetails";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,12 +19,16 @@ function App() {
       element: <Layout />,
       children: [
         { path: "signup", element: <Signup /> },
-        { index: true, element: <Login /> },
+
         { path: "resetPassword", element: <ResetPassword /> },
         { path: "forgotPassword", element: <ForgotPassword /> },
         { path: "verify", element: <VerifyCode /> },
         { path: "login", element: <Login /> },
+        { index: true, element: <Home /> },
         { path: "home", element: <Home /> },
+        { path: "loading", element: <Loader /> },
+        { path: "card", element: <Card /> },
+        { path: "game/:id", element: <GameDetails /> },
       ],
     },
   ]);
