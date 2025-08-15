@@ -1,9 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import Layout from "./components/Layout/layout";
-
 import Signup from "./page/Signup/Signup";
 import Login from "./page/Login/Login";
-import { Toaster } from "react-hot-toast";
 import Home from "./page/home/Home";
 import ResetPassword from "./page/ResetPassword/ResetPassword";
 import ForgotPassword from "./page/ForgotPassword/ForgotPassword";
@@ -19,7 +18,6 @@ function App() {
       element: <Layout />,
       children: [
         { path: "signup", element: <Signup /> },
-
         { path: "resetPassword", element: <ResetPassword /> },
         { path: "forgotPassword", element: <ForgotPassword /> },
         { path: "verify", element: <VerifyCode /> },
@@ -39,21 +37,5 @@ function App() {
     </>
   );
 }
-{
-  /* <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route path="SpecialOffers" element={<SpecialOffers />} />
-      <Route path="sports" element={<Sports />} />
-      <Route path="games" element={<Games />} />
-      <Route path="inventory" element={<Inventory />} />
-      <Route path="search" element={<Search />} />
-      <Route path="signup" element={<Signup />} />
-      <Route path="login" element={<Login />} />
-      <Route path="sports" element={<Sports />} />
-      <Route path="sports" element={<Sports />} />
-    </Route>
-  </Routes>
-</BrowserRouter>; */
-}
+
 export default App;
