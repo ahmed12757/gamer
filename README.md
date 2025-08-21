@@ -9,7 +9,7 @@ Built with a focus on **performance**, **visual experience**, and **scalability*
 
 ## Live Demo
 
-- 🌐 **Live**: [<Demo link >](https://gamer-lime.vercel.app/)
+- 🌐 **Live**: https://gamer-lime.vercel.app/
 
 ---
 
