@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navpar/Navbar";
 import { Outlet } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 export default function Layout() {
   return (
@@ -10,6 +11,7 @@ export default function Layout() {
         <div className="container mx-auto mt-10">
           <Outlet></Outlet>
         </div>
+        <Footer />
       </div>
     </>
   );

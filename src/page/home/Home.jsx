@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 
 import Card from "../../components/Card/Card";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   const [tickets] = useState([
@@ -5790,8 +5791,10 @@ export default function Home() {
 
   return (
     <div className=" text-gray-100 px-2 sm:px-4 md:px-8 py-6">
+      <Helmet>
+        <title> Home </title>
+      </Helmet>
       <section className="mb-8">
-        <h2 className="text-lg sm:text-xl font-bold mb-4">Tickets Example</h2>
         <div className="bg-gray-800/40 border border-gray-700 rounded-md p-3 mb-4">
           <div className="flex flex-col lg:flex-row gap-3 lg:items-center">
             <input

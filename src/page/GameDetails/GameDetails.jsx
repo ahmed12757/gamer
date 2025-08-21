@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { useParams, useNavigate } from "react-router-dom";
 
 export default function GameDetails() {
@@ -3814,6 +3815,9 @@ export default function GameDetails() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
+      <Helmet>
+        <title> Game Details </title>
+      </Helmet>
       {/* Header */}
       <div className="relative h-96">
         <img
