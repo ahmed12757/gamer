@@ -19,15 +19,15 @@ Built with a focus on **performance**, **visual experience**, and **scalability*
 
 ## Home Page
 
-![Home Page](./public/Screenshot 2025-08-21 191638.jpg)
+![Home Page](./public/Screenshot%202025-08-21%20191638.jpg)
 
 ## Game Details
 
-![Game Details](./public/Screenshot 2025-08-21 191838.jpg)
+![Game Details](./public/Screenshot%202025-08-21%20191809.jpg)
 
 ## Search & Filters
 
-![Search & Filters](./public/Screenshot 2025-08-21 201705.jpg)
+![Search & Filters](./public/Screenshot%202025-08-21%20201705.jpg)
 
 ---
 
