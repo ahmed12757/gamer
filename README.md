@@ -15,13 +15,19 @@ Built with a focus on **performance**, **visual experience**, and **scalability*
 
 ## Screenshots
 
-Add your screenshots from `public/` or `docs/`:
+# Screenshots
 
-| Page             | Screenshot                                |
-| ---------------- | ----------------------------------------- |
-| Home Page        | `public/Screenshot 2025-08-21 191638.jpg` |
-| Game Details     | `public/Screenshot 2025-08-21 191838.jpg` |
-| Search & Filters | `public/Screenshot 2025-08-21 201705.jpg` |
+## Home Page
+
+![Home Page](./public/Screenshot 2025-08-21 191638.jpg)
+
+## Game Details
+
+![Game Details](./public/Screenshot 2025-08-21 191838.jpg)
+
+## Search & Filters
+
+![Search & Filters](./public/Screenshot 2025-08-21 201705.jpg)
 
 ---
 
